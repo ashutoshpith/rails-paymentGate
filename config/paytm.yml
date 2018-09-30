@@ -1,0 +1,19 @@
+defaults: &defaults
+  PAYTM_MERCHANT_KEY: ''
+  WEBSITE: ''
+  MID: ''
+  INDUSTRY_TYPE_ID: ''
+  CHANNEL_ID: ''
+  payment_url: ''
+
+# Development environment
+development:
+  <<: *defaults
+
+# Test Enviroment
+test:
+  <<: *defaults
+
+# Production Environment
+production:
+<<: *defaults
